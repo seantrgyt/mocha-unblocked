@@ -50,7 +50,6 @@ export default function Home() {
             </A>
           </div>
           <Dot class="-mx-3" />
-          </a>
           <A href="/faq" class="link-hover link">
             FAQ
           </A>
