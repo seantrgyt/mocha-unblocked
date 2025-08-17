@@ -4,9 +4,7 @@ import type { AboutBlankData } from './types'
 export function handleAboutBlank() {
   const aboutblankData = store('aboutblank') as AboutBlankData
 
-  if (aboutblankData.enabled && window.self === window.top) {
     openAbWindow(window.location.origin)
-  }
 }
 
 export function openAbWindow(src: string, redirect = true) {
